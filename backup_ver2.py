@@ -25,10 +25,4 @@ if os.system(zip_command) == 0:
 else:
     print('Создание резервной копии НЕ УДАЛОСЬ')
 
-
-
-
-
-#    rar = "C:\PROGRA~1\WinRAR\WinRAR.exe u -as -dh {0} {1}".format(dst, ' '.join(source))
-''' format - подставляет аргументы {0}=dst, {1}=source
-Метод join преобразовывает список в строку '''
+print('The end')
